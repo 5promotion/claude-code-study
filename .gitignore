@@ -1,6 +1,13 @@
-# macOS
-.DS_Store
+__pycache__/
 Icon?
-
-# Notion import file (not needed for GitHub Pages)
-notion-import.md
+Icon
+node_modules/
+.env
+.env.*
+!.env.*.example
+*.secret
+credentials.json
+.DS_Store
+.claude/settings.local.json
+*.duckdb
+.import/
